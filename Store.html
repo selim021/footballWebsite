@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--  LINK  main CSS   -->
+      <link rel="stylesheet" href="PP.css">
+      <a href="PP.html"></a>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="store.css">
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="store.js"></script>
+      <title>ESS Store</title>
+    </head>
+    <body>
+      <input type="text" id="searchInput" placeholder="Search by name">
+<input type="number" id="minPriceInput" placeholder="Min Price">
+<input type="number" id="maxPriceInput" placeholder="Max Price">
+
+<div>
+  <label>Filter by Size:</label>
+  <input type="checkbox" value="S"> S
+  <input type="checkbox" value="M"> M
+  <input type="checkbox" value="L"> L
+  <input type="checkbox" value="XL"> XL
+  <input type="checkbox" value="XXL"> XXL
+</div>
+
+<button onclick="searchTshirts()">Search</button>
+
+      
+      <!-- Display search results here -->
+      <div id="searchResults"></div>
+        <div class="navbar">
+        
+          <div class="navbar-left">
+            <a class="ESS-logo" href="PP.html"> <img src="pp imaes/logo.jfif" width="100%"; height="80px"> </a>
+            <span id="notloggedin">
+            <a class="ESS-logo" href="PP.html"><i class="fa fa-fw fa-home"></i></a>
+            <a href="signin.html" class=""><i class="fa fa-fw fa-envelope"></i> Sign in</a>
+          </span>
+          <span id="loggedin">
+            <a href="#" id="user"><h3></h3></a>
+            <a href="" class="" id="Signout"><i class="fa-solid fa-x"></i>Sign Out</a>
+          </span>
+          </div>
+          <ul>
+            <li><a href="Store.html">Store</a></li>
+           
+          </ul>
+
+      
+        </div>
+        </div>
+       
+  
+        <!--  NAVBAR END   -->
+        <div class="body-container">
+        <div class="responsive">
+            <div class="gallery">
+                <img src="pp imaes\jersey1.jpg" alt="actualite1" width="500" height="300"><br>
+              <div class="desc"><h3>T-Shirt</h3>
+                <h4>S - M -  XL</h4>
+                <h4>75 DT</h4>
+                <img src="tshirt7.jpg" alt="Forest"width="500" height="300">
+                <div class="desc"><h3>T-Shirt</h3>
+                <h4> S - L- XXL </h4>
+                <h4>65 DT</h4>
+            </div>
+            </div>
+            </div>
+          </div>
+          
+          
+          <div class="responsive">
+            <div class="gallery">
+                <img src="pp imaes\jersey2.jpg" alt="Forest" width="500" height="300"><br>
+              <div class="desc"><h3>T-Shirt</h3>
+                <h4> M - L - XL</h4>
+                <h4>90 DT</h4></div>
+                <img src="tshirt6.jpg" alt="Forest"width="500" height="300">
+                <div class="desc"><h3>T-Shirt</h3>
+                <h4> S - L - XL</h4>
+                <h4>90 DT</h4></div>
+            </div>
+          
+          </div>
+          <div class="responsive">
+            <div class="gallery">
+                <img src="pp imaes\jersey3.jpg" alt="Forest" width="500" height="300">
+              <div class="desc"><h3>T-Shirt</h3>
+                <h4>S -  L - XL</h4>
+                <h4>80 DT</h4>
+                
+            </div>
+            </div>
+            <div class="tshirt">
+              <div class="gallery">
+                  <img src="tshirt5.jpg" alt="Forest" width="500" height="300">
+                <div class="desc"><h3>T-Shirt</h3>
+                  <h4>S - M - L - XL</h4>
+                  <h4>85 DT</h4></div>
+                  
+              </div>
+            </div>
+          </div>
+         
+          
+      </body>
+      <!--  BODY END -->
+
+      
+
+
+
+
